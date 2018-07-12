@@ -4,7 +4,7 @@
 public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hello, world");
-		System.out.println("Hello, Mike Bostanci");
-		System.out.println("This is running from Jenkins");
+		System.out.println(args[0]);
+		System.out.println(args[0]);
        }
 }
