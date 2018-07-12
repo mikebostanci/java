@@ -4,7 +4,7 @@
 public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hello, world with parameter running at Jenkins ");
-		System.out.println(args[0] || " This is the second parameter: " ||  args[1] );
+		System.out.println( "first parameter: " + args[0] + " Second parameter: " +  args[1] );
 //		System.out.println(args[0);
        }
 }
