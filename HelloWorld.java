@@ -6,5 +6,6 @@ public class HelloWorld {
 		System.out.println("Hello, world with parameter running at Jenkins ");
 		System.out.println( "first parameter: " + args[0] + " Second parameter: " +  args[1] );
 //		System.out.println(args[0);
+                System.out.println("Final print");
        }
 }
